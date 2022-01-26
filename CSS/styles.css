@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Montserrat:wght@200;300;500&family=Open+Sans:wght@300;400;500;600&family=Outfit:wght@300;400;600&family=Poppins:wght@100;200;300;400;500&family=Raleway:wght@700&family=Spartan:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+:root {
+    --dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+.container {
+    margin: 8% 10%;
+}
+
+.container .container__wrapper {
+    display: flex;
+}
+
+.container .page__description {
+    width: 420px;
+}
+
+.container__wrapper .page__description h2 {
+    font-weight: 700;
+    font-size: 38px;
+    color: var(--dark-magenta);
+    padding-bottom: 20px;
+}
+
+.container__wrapper .page__description p {
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--dark-grayish-magenta);
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
