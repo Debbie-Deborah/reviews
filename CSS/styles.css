@@ -17,7 +17,10 @@ body {
 }
 
 .container {
-    margin: 8% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6% 5%;
 }
 
 .container .container__wrapper {
@@ -44,15 +47,23 @@ body {
 }
 
 .container__wrapper .page__ratings {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .container__wrapper .page__ratings .page__ratings__child {
     display: flex;
     background: var(--light-grayish-magenta);
-    padding: 10px 20px;
+    padding: 12px 20px;
     border-radius: 6px;
     margin-bottom: 10px;
+}
+
+.page__ratings .rating__child:nth-child(2) {
+    padding-left: 40px;
+}
+
+.page__ratings .rating__child:nth-child(3) {
+    padding-left: 80px;
 }
 
 .container__wrapper .page__ratings .page__ratings__child i {
